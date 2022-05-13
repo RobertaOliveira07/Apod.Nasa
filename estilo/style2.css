@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    opacity: 0.7;
+    background: linear-gradient(45deg, #422a86,#0a203d, #1E0596);
+    background-size: 300%, 300%;
+    animation: color 10s ease infinite;
+    width: 100vh;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 350px;
+
+
+}
+@keyframes color {
+    0% {
+        background-position: 0% 50%;
+      }
+    50% {
+        background-position: 100% 50%;
+     }
+    100% {
+        background-position: 0%,50%
+    }
+}
+
+#title {
+    
+    font-family: Galaxia;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 90px;
+    color: black;
+}
+
+#text {
+    font-family: Roboto;
+    font-size:30px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+#data {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    border: black solid 5px;
+    
+}
+
+#parte-data {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 20px;
+
+}
+
+#submit{
+    border: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.65);
+    padding: 0.2em 0.4em;
+    font-size: 0.9rem;
+    border-radius: 0.2em;
+    box-shadow: inset 1px 1px 2px rgb(255, 255, 255),
+      inset -1px -1px 3px rgba(255, 255, 255, 0.3);
+    transition: 0.2s;
+    width: 70px;
+    height: 38px;
+}
+
+#submit:hover {
+    box-shadow: inset 2px 3px 3px rgb(255, 255, 255),
+      inset -2px -3px 4px rgb(255, 255, 255), 0 0 4px rgb(255, 255, 255);
+  }
+
+#submit:active {
+    box-shadow: inset 0 1px 3px rgb(255, 255, 255),
+      inset 1px 0 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
+  }
+  
+
+#footer {
+    font-family: BEBAS;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+    
+}
+
+img{
+    width: 800px;
+    height:500px;
+    margin-bottom: 0px;
+}
+
+.explanation{
+   margin-top:50px;
+   font-family: Roboto;
+   font-size: 25px;
+   color: white;
+   text-align: center;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+
+}
+
+.copyright{
+   font-family: Roboto;
+   font-size: 20px;
+   color: white;
+    
+}
+
+.titulo {
+
+   font-family: Roboto;
+   font-size: 30px;
+   color: white;
+}
